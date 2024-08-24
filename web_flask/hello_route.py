@@ -5,6 +5,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+#Define the route for the root URL '/'
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def greet():
     """ Returns a greeting message. """
